@@ -1,0 +1,15 @@
+train: /content/drive/Shareddrives/Danika_Gupta_Work/Research/2024/Mosquito_SPIE/Datasets/DS_YOLO_2/MosquitoNet.v1i.yolov8/train/images
+val: /content/drive/Shareddrives/Danika_Work_2/Mosquito-lab-Roboflow-noaug/Lab-mosquitoes.v1i.yolov8/train/images
+test: /content/drive/Shareddrives/Danika_Gupta_Work/Research/2024/Mosquito_SPIE/Datasets/DS_YOLO_2/MosquitoNet.v1i.yolov8/test/images
+test_external: /content/drive/Shareddrives/Danika_Gupta_Work/Mosquitoes/MOHS_DINO/combined/images
+
+
+nc: 2
+names: ['Aedes albopictus', 'Culex']
+
+roboflow:
+  workspace: mosquitos
+  project: mosquitonet
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/mosquitos/mosquitonet/1
